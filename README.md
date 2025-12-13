@@ -2,7 +2,6 @@
 
 ---
 
-![supervisedlearning](supervisedlearning.jpg)
 
 Supervised Learning is a category of machine learning where algorithms are trained with both input feature vectors and input labels. Training a supervised learning algorithm follows the predict-compare-update cycle where the algorithm uses a feature vector to predict a label, the label is compared to the "true" label and a cost is calculated, and the cost is used to update the weights to make future predictions.  
 
