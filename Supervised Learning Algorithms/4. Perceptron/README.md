@@ -1,4 +1,4 @@
-# 🧠 Perceptron (From Scratch)
+# Perceptron
 
 This directory contains a complete, from-first-principles implementation of the **Perceptron algorithm**, one of the earliest and most influential models in machine learning.  
 The perceptron acts as a *single-layer linear classifier* and forms the conceptual foundation for modern neural networks.
@@ -7,7 +7,7 @@ In this project, the perceptron is applied to the **Spotify Top Hits (2000–201
 
 ---
 
-## 📌 What Is the Perceptron?
+## What Is the Perceptron?
 
 The perceptron models a simplified version of a biological neuron.  
 Given an input vector \( x \), it computes:
@@ -39,7 +39,7 @@ This makes the perceptron simple and interpretable, but only effective for **lin
 
 ---
 
-## 🎧 Project Goal
+## Project Goal
 
 We train a perceptron to classify whether a Spotify track is a *hit*:
 
@@ -60,7 +60,7 @@ Features include:
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
 | File | Description |
 |------|-------------|
@@ -71,7 +71,7 @@ Features include:
 
 ---
 
-## 🔧 Implementation Overview
+## Implementation Overview
 
 The perceptron is implemented manually with:
 
@@ -86,7 +86,7 @@ This implementation exposes the core mechanics of linear classification.
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 After training, the perceptron achieved:
 
@@ -109,7 +109,7 @@ After training, the perceptron achieved:
 
 ---
 
-## 📉 Learned Weights
+## Learned Weights
 
 danceability : -0.0078
 energy : -0.0244
@@ -131,7 +131,7 @@ bias : -0.0100
 
 ---
 
-## ⚠️ Limitations of the Perceptron
+## Limitations of the Perceptron
 
 The perceptron struggles when:
 
@@ -144,7 +144,7 @@ As a result, more flexible models (Logistic Regression, Neural Networks, Random 
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This Perceptron project demonstrates:
 
