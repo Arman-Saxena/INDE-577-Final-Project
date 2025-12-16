@@ -1,4 +1,4 @@
-# K-Nearest Neighbors (From Scratch)
+# K-Nearest Neighbors
 
 This repository contains a complete from-scratch implementation of **K-Nearest Neighbors (KNN)** and applies it to the Spotify Top Songs (2000–2019) dataset to study how audio features relate to hit prediction.  
 KNN is a simple but powerful baseline algorithm that relies entirely on local similarity rather than learned parameters.
