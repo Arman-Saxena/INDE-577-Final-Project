@@ -1,4 +1,4 @@
-# Decision Tree (From Scratch)
+# Decision Tree
 
 This repository contains a full, from-first-principles implementation of a **Decision Tree Classifier**, designed to classify Spotify tracks as “hits” or “non-hits” based on audio features.  
 Unlike linear models or perceptrons, decision trees learn a series of **hierarchical splitting rules** that partition the feature space into increasingly pure regions. This README focuses on the methodology behind decision trees, how they are constructed from scratch, and how they operate on real-world data.
