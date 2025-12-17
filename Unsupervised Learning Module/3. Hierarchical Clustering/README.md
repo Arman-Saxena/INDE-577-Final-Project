@@ -69,6 +69,8 @@ Much faster on datasets with ~2000 samples
 
 Integrates seamlessly with dendrogram visualization tools
 
+---
+
 ### **3. Dendogram**
 
 How to interpret the dendrogram:
@@ -81,6 +83,8 @@ Late merges → potential outliers
 
 Branch density → compact vs. diffuse clusters
 
+---
+
 ### **4. Extracting k Clusters**
 
 To cut the dendrogram into the desired number of clusters:
@@ -89,4 +93,7 @@ from scipy.cluster.hierarchy import fcluster
 labels = fcluster(Z, t=4, criterion='maxclust')
 
 This produces 4 clusters based on the hierarchical structure.
+
+---
+
 
