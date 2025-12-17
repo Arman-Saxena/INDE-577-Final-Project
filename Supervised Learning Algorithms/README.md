@@ -9,6 +9,26 @@ This module implements a full suite of supervised algorithms **from scratch** an
 
 ## **Algorithms Implemented**
 
+### **1. Logistic Regression**
+**Type:** Classification  
+**Purpose:** Predict binary outcomes (e.g., hit vs. non-hit).  
+**Method:**  
+- Sigmoid activation  
+- Gradient descent optimization  
+- Cross-entropy loss
+
+---
+
+### **2. K-Nearest Neighbors (KNN)**
+**Type:** Instance-Based Method  
+**Purpose:** Classify a track based on the labels of its nearest neighbors.  
+**Method:**  
+- Euclidean distance  
+- Majority voting  
+- No explicit training phase  
+
+---
+
 ### **3. Linear Regression**
 **Type:** Regression  
 **Purpose:** Model linear relationships between song features and a continuous target (e.g., popularity).  
@@ -16,16 +36,6 @@ This module implements a full suite of supervised algorithms **from scratch** an
 - Closed-form solution (Normal Equation)  
 - Gradient-based optimization  
 - Error measured via MSE  
-
----
-
-### **1. Logistic Regression**
-**Type:** Classification  
-**Purpose:** Predict binary outcomes (e.g., hit vs. non-hit).  
-**Method:**  
-- Sigmoid activation  
-- Gradient descent optimization  
-- Cross-entropy loss  
 
 ---
 
@@ -66,16 +76,6 @@ This module implements a full suite of supervised algorithms **from scratch** an
 - Multiple decision trees  
 - Random feature subsets  
 - Majority vote (classification)  
-
----
-
-### **2. K-Nearest Neighbors (KNN)**
-**Type:** Instance-Based Method  
-**Purpose:** Classify a track based on the labels of its nearest neighbors.  
-**Method:**  
-- Euclidean distance  
-- Majority voting  
-- No explicit training phase  
 
 ---
 
