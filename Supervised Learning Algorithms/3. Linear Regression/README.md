@@ -1,4 +1,4 @@
-# 📈 Linear Regression
+# Linear Regression
 
 This module implements **Linear Regression from first principles**, including:
 
@@ -13,7 +13,7 @@ The project uses a real-world dataset of **top songs** to explore how acoustic f
 
 ---
 
-## 🔍 What Is Linear Regression?
+## What Is Linear Regression?
 
 Linear Regression models the relationship between a set of input features and a continuous output variable using the function:
 
@@ -33,7 +33,7 @@ Linear Regression is simple and interpretable, but its performance declines when
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This project implements Linear Regression in two complementary ways:
 
@@ -64,7 +64,7 @@ This method solves for optimal weights analytically and provides a benchmark for
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The project uses a dataset of **2,000 songs**, each containing:
 
@@ -89,7 +89,7 @@ Because audio features do not strongly correlate with popularity, linear regress
 
 ---
 
-## 🧮 Algorithm Summary
+## Algorithm Summary
 
 ### **Prediction Function**
 \[
@@ -109,7 +109,7 @@ MSE = \frac{1}{n} \sum_{i=1}^{n}(\hat{y}_i - y_i)^2
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 This model is evaluated using:
 
@@ -121,7 +121,7 @@ This model is evaluated using:
 
 ---
 
-## 📌 Results Summary
+## Results Summary
 
 Using the top songs dataset:
 
@@ -139,7 +139,7 @@ Using the top songs dataset:
 
 ---
 
-## 🧩 Learned Weights (Insights)
+## Learned Weights (Insights)
 
 The learned coefficients reveal:
 
@@ -155,7 +155,7 @@ While some directional trends make intuitive sense, correlations are too weak fo
 
 ---
 
-## ⚠️ Limitations of Linear Regression
+## Limitations of Linear Regression
 
 - Assumes strictly **linear** relationships  
 - Cannot model feature interactions or nonlinear patterns  
@@ -165,7 +165,7 @@ While some directional trends make intuitive sense, correlations are too weak fo
 
 ---
 
-## 🎵 Why Popularity Isn’t Linearly Predictable
+## Why Popularity Isn’t Linearly Predictable
 
 Song popularity is influenced by:
 
@@ -179,7 +179,7 @@ These external drivers dominate acoustic features.
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This Linear Regression implementation:
 
